@@ -1,0 +1,42 @@
+/* საწყისი / resets */
+body, h1, h2, h3, h4, p, ul, li, fieldset{
+    margin: 0;
+    padding: 0;
+}
+body, a{
+    color: var(--c-darker);
+}
+@font-face {
+    font-family: '3D Unicode';
+    src: url(../fonts/3d_unicode.ttf);
+}
+@font-face {
+    font-family: 'Nino Mtavruli';
+    src: url(../fonts/bpg_nino_mtavruli_bold.ttf);
+}
+@font-face {
+    font-family: 'Nino';
+    src: url(../fonts/bpg_nino_medium.otf);
+}
+body{
+    font-family: 'Nino';
+}
+h1, h2, h3, h4, h5, #main-nav .list{
+    font-family: 'Nino Mtavruli';
+}
+::selection{
+    background-color: var(--c-base);
+    color: var(--c-light);
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+fieldset, input, select, textarea, button{
+    border: none;
+}

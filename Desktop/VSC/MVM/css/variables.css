@@ -1,0 +1,30 @@
+/* ცვლადები */
+:root{
+    /* ფერი */
+    --c-light: hsl(160, 0%, 94%);
+    --c-light-param: 160, 0%, 94%;
+    --c-dark-medium: hsl(160, 0%, 70%);
+    --c-dark: hsl(160, 0%, 20%);
+    --c-darker: hsl(160, 0%, 10%);
+    --c-darker-param: 160, 0%, 10%;
+    --c-base: hsl(165deg 54% 49%);
+    --c-base-param: 0, 100%, 50%;
+    /* ზომა */
+        /* ჩარჩო */
+        --br-large: calc(30/16 * 1rem);
+        /* სივრცე */
+        --sp-smaller: calc(5/16 * 1rem);
+        --sp-small: calc(10/16 * 1rem);
+        --sp-medium: calc(20/16 * 1rem);
+        --sp-large: calc(36/16 * 1rem);
+        --sp-larger: calc(48/16 * 1rem);
+        --sp-largest: calc(76/16 * 1rem);
+        /* შრიფტი */
+        --fs-smallest: calc(12/16 * 1rem);
+        --fs-smaller: calc(14/16 * 1rem);
+        --fs-normal: calc(16/16 * 1rem);
+        --fs-medium: calc(18/16 * 1rem);
+        --fs-large: calc(28/16 * 1rem);
+        --fs-larger: calc(36/16 * 1rem);
+        --fs-largest: calc(48/16 * 1rem);
+}
